@@ -2,6 +2,10 @@
 All notable changes to this project will be documented in this file.
 This project adheres to [Semantic Versioning](http://semver.org/).
 
+## [4.5.95] - 2019-10-30
+### Changed
+- Update to version 4.5.95 of [Material Design Icons][mdi].
+
 ## [4.1.95] - 2019-08-14
 ### Changed
 - Update to version 4.1.95 of [Material Design Icons][mdi].
