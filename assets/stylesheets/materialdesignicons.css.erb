@@ -18656,3 +18656,30 @@
     transform: rotate(359deg);
   }
 }
+
+.mdi-spin-reverse:before {
+  -webkit-animation: mdi-spin-reverse 2s infinite linear;
+  animation: mdi-spin-reverse 2s infinite linear;
+}
+
+@-webkit-keyframes mdi-spin-reverse {
+  0% {
+    -webkit-transform: rotate(359deg);
+    transform: rotate(359deg);
+  }
+  100% {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+}
+
+@keyframes mdi-spin-reverse {
+  0% {
+    -webkit-transform: rotate(359deg);
+    transform: rotate(359deg);
+  }
+  100% {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+}
