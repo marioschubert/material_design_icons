@@ -8,9 +8,9 @@ Gem::Specification.new do |s|
   s.licenses    = ['MIT', 'OFL-1.1', 'CC-BY-4.0']
   s.summary     = 'Use Material Design Icons in your Rails project.'
   s.description = 'Use Material Design Icons in your Rails project as either HTML tags or inline SVG.'
-  s.author      = 'Barry Mieny'
-  s.email       = 'barry@mieny.com'
-  s.homepage    = 'http://github.com/barrymieny/material_design_icons'
+  s.author      = ['Mario Schubert','Barry Mieny']
+  s.email       = ['mario.schubert@eran.de','barry@mieny.com']
+  s.homepage    = 'https://github.com/marioschubert/material_design_icons'
 
   s.files         = `git ls-files`.split("\n")
   s.require_paths = ['lib']

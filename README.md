@@ -1,3 +1,6 @@
+
+**Personal fork. Upstream was archived.**
+
 # Material Design Icons
 
 [![Gem Version](https://badge.fury.io/rb/material_design_icons.svg)](https://badge.fury.io/rb/material_design_icons) ![Maintainers Wanted](https://img.shields.io/badge/maintainers-wanted-red.svg)
@@ -6,6 +9,7 @@
 
 ## Maintainers Wanted
 
+(https://github.com/barrymieny/material_design_icons)
 Unfortunately, I no longer use this project and don't have the time to work on it any further. This means that bugs will not be fixed and new releases will not be added unless someone else does so.
 
 If you're interested in taking over maintenance of material_design_icons, please reply to this [GitHub issue (#9)](https://github.com/barrymieny/material_design_icons/issues/9).
@@ -14,7 +18,7 @@ If you're interested in taking over maintenance of material_design_icons, please
 
 Add this line to your application's Gemfile:
 
-    gem 'material_design_icons'
+    gem 'material_design_icons', github: 'marioschubert/material_design_icons', branch: 'master'
 
 And then execute:
 
