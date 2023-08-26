@@ -2,6 +2,11 @@
 All notable changes to this project will be documented in this file.
 This project adheres to [Semantic Versioning](http://semver.org/).
 
+
+## [7.2.96] - 2023-08-26
+### Changed
+- Update to version 7.2.96 of [Material Design Icons][mdi].
+
 ## [6.6.96] - 2022-04-30
 ### Changed
 - Update to version 6.6.96 of [Material Design Icons][mdi].
@@ -141,6 +146,7 @@ This project adheres to [Semantic Versioning](http://semver.org/).
 ### Added
 - Basic Railtie and view helpers to add [Material Design Icons][mdi] tags and inline SVG to Ruby on Rails views.
 
+[7.2.96]: https://github.com/process-gardening/material_design_icons/compare/v6.6.96...v7.2.96
 [6.6.96]: https://github.com/marioschubert/material_design_icons/compare/v5.9.55...v6.6.96
 [5.9.55]: https://github.com/marioschubert/material_design_icons/compare/v4.5.95...v5.9.55
 [4.5.95]: https://github.com/VuframeLab/material_design_icons/compare/v4.0.96...v4.5.95

@@ -18,7 +18,7 @@ If you're interested in taking over maintenance of material_design_icons, please
 
 Add this line to your application's Gemfile:
 
-    gem 'material_design_icons', github: 'marioschubert/material_design_icons', branch: 'master'
+    gem 'material_design_icons', github: 'process-gardening/material_design_icons', branch: 'master'
 
 And then execute:
 
@@ -85,3 +85,18 @@ The inline SVG makes use of the [inline_svg](https://github.com/jamesmartin/inli
 Community Icons - [SIL Open Font License 1.1](http://scripts.sil.org/cms/scripts/page.php?item_id=OFL_web)
 
 Google Material Design Icons - [Attribution 4.0 International](https://github.com/google/material-design-icons/blob/master/LICENSE)
+
+
+## Development: Update Icons
+
+- get new icons: https://github.com/Templarian/MaterialDesign
+- Webfonts
+  - update or clone: https://github.com/Templarian/MaterialDesign-Webfont
+  - copy files to repository
+    - fonts to asset/fonts
+    - scss to asset/stylesheets
+    - check materialdesignicons.scss and integrate into materialdesignicons.scss.erb, then delete
+- SVGs
+  - update or clone: https://github.com/Templarian/MaterialDesign-SVG
+  - copy svg to asset/images  
+- Update versions
